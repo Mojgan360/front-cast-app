@@ -1,7 +1,11 @@
+import Home from './pages/Home'
+import Navbar from './components/Navbar'
+
 function App() {
   return (
     <div>
-      <h1>front-cast-app</h1>
+      <Navbar />
+      <Home />
     </div>
   )
 }
