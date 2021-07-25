@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import styled from 'styled-components'
+
 import { data } from '../data'
 import ProductsFunc from './ProductsFun'
 
@@ -17,10 +19,13 @@ const MainFunc = () => {
   //   getData()
   // }, [])
   return (
-    <div>
+    <MainWrapper>
       <ProductsFunc products={products} />
-    </div>
+    </MainWrapper>
   )
 }
 
 export default MainFunc
+const MainWrapper = styled.div`
+  background-color: #f6f7f3;
+`

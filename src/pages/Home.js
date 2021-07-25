@@ -4,7 +4,6 @@ import MainFunc from '../func-component/MainFunc'
 const Home = () => {
   return (
     <div>
-      Home
       <MainFunc />
     </div>
   )
