@@ -1,13 +1,22 @@
 import Home from './pages/Home'
-import Navbar from './components/Navbar'
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Navbar from './components/navbar/Navbar'
+import Services from './components/navbar/Services'
+import AboutUs from './components/navbar/AboutUs'
+
 import '../src/App.css'
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Home />
-    </div>
+      <Switch>
+        <Route path='/' exact component={Home} />{' '}
+        <Route path='/aboutus' exact component={AboutUs} />{' '}
+        <Route path='/services' exact component={Services} />{' '}
+      </Switch>
+    </Router>
   )
 }
 
