@@ -9,3 +9,16 @@
 html {
   font-size: 100%;
 } /*16px*/
+.home,
+.services,
+.products,
+.contact-us,
+.sign-up,
+.marketing,
+.consulting {
+  /* display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem; */
+}

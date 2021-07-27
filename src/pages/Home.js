@@ -1,5 +1,5 @@
 import React from 'react'
-import MainFunc from '../func-component/MainFunc'
+import MainFunc from '../components/func-component/MainFunc'
 
 const Home = () => {
   return (
